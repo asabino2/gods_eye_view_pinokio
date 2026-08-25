@@ -27,9 +27,9 @@ module.exports = {
               href: "start.js"
             },
             {
-              icon: "fa-solid fa-sliders",
-              text: "API Keys (.env)",
-              href: "config.js"
+              icon: "fa-solid fa-gear",
+              text: "Settings",
+              href: "settings.js"
             },
             {
               icon: "fa-solid fa-arrows-rotate",
@@ -46,9 +46,9 @@ module.exports = {
               href: "start.js"
             },
             {
-              icon: "fa-solid fa-sliders",
-              text: "API Keys (.env)",
-              href: "config.js"
+              icon: "fa-solid fa-gear",
+              text: "Settings",
+              href: "settings.js"
             },
             {
               icon: "fa-solid fa-arrows-rotate",
@@ -66,9 +66,9 @@ module.exports = {
             href: "start.js"
           },
           {
-            icon: "fa-solid fa-sliders",
-            text: "API Keys (.env)",
-            href: "config.js"
+            icon: "fa-solid fa-gear",
+            text: "Settings",
+            href: "settings.js"
           },
           {
             icon: "fa-solid fa-arrows-rotate",

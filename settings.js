@@ -3,8 +3,8 @@ module.exports = {
     {
       method: "input",
       params: {
-        title: "Update API Keys",
-        description: "Configure your API keys for God's Eye View.",
+        title: "Settings",
+        description: "Configure your API keys and environment settings for God's Eye View.",
         form: [
           {
             key: "GOOGLE_MAPS_API_KEY",
@@ -64,7 +64,7 @@ module.exports = {
     {
       method: "notify",
       params: {
-        html: "API Keys updated successfully!"
+        html: "Settings updated successfully!"
       }
     }
   ]
