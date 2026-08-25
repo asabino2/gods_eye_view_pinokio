@@ -57,7 +57,15 @@ module.exports = {
       params: {
         path: "ENVIRONMENT",
         text: [
-          "# God's Eye View - Environment Configuration",
+          "PINOKIO_SCRIPT_AUTOLAUNCH=",
+          "PINOKIO_SHARE_CLOUDFLARE=false",
+          "PINOKIO_SHARE_PASSCODE=",
+          "PINOKIO_SCRIPT_DEFAULT=true",
+          "GRADIO_TEMP_DIR=./cache/GRADIO_TEMP_DIR",
+          "HF_HOME=./cache/HF_HOME",
+          "TORCH_HOME=./cache/TORCH_HOME",
+          "PINOKIO_SHARE_LOCAL=false",
+          "PINOKIO_SHARE_LOCAL_PORT=",
           "GOOGLE_MAPS_API_KEY={{input.GOOGLE_MAPS_API_KEY}}",
           "OPENAI_API_KEY={{input.OPENAI_API_KEY}}",
           "AISSTREAM_API_KEY={{input.AISSTREAM_API_KEY}}",
