@@ -27,11 +27,6 @@ module.exports = {
               href: "start.js"
             },
             {
-              icon: "fa-solid fa-gear",
-              text: "Settings",
-              href: "settings.js"
-            },
-            {
               icon: "fa-solid fa-arrows-rotate",
               text: "Update",
               href: "update.js"
@@ -44,11 +39,6 @@ module.exports = {
               icon: "fa-solid fa-terminal",
               text: "Terminal",
               href: "start.js"
-            },
-            {
-              icon: "fa-solid fa-gear",
-              text: "Settings",
-              href: "settings.js"
             },
             {
               icon: "fa-solid fa-arrows-rotate",
@@ -64,11 +54,6 @@ module.exports = {
             icon: "fa-solid fa-play",
             text: "Start",
             href: "start.js"
-          },
-          {
-            icon: "fa-solid fa-gear",
-            text: "Settings",
-            href: "settings.js"
           },
           {
             icon: "fa-solid fa-arrows-rotate",

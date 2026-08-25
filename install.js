@@ -14,13 +14,6 @@ module.exports = {
       }
     },
     {
-      method: "fs.copy",
-      params: {
-        src: "app/.env.example",
-        dest: "app/.env"
-      }
-    },
-    {
       method: "input",
       params: {
         title: "Configure API Keys",
@@ -56,6 +49,20 @@ module.exports = {
             placeholder: "...",
             description: "Optional for live traffic density overlays."
           }
+        ]
+      }
+    },
+    {
+      method: "fs.write",
+      params: {
+        path: "ENVIRONMENT",
+        text: [
+          "# God's Eye View - Environment Configuration",
+          "GOOGLE_MAPS_API_KEY={{input.GOOGLE_MAPS_API_KEY}}",
+          "OPENAI_API_KEY={{input.OPENAI_API_KEY}}",
+          "AISSTREAM_API_KEY={{input.AISSTREAM_API_KEY}}",
+          "FIRMS_MAP_KEY={{input.FIRMS_MAP_KEY}}",
+          "TOMTOM_API_KEY={{input.TOMTOM_API_KEY}}"
         ]
       }
     },

@@ -2,6 +2,13 @@ module.exports = {
   daemon: true,
   run: [
     {
+      method: "fs.copy",
+      params: {
+        src: "ENVIRONMENT",
+        dest: "app/.env"
+      }
+    },
+    {
       method: "shell.run",
       params: {
         path: "app",

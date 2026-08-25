@@ -11,7 +11,7 @@ God's Eye View is a spy satellite simulator in your browser with real-time open-
 - **One-Click Installation (`install.js`)**: Clones the official repository, installs Node.js dependencies, sets up configuration templates, and prompts for API keys.
 - **One-Click Updates (`update.js`)**: Pulls the latest code directly from GitHub and updates dependencies.
 - **Embedded Web UI (`start.js`)**: Launches the Vite server and seamlessly displays the interactive 3D globe within Pinokio's browser window.
-- **Settings & API Configuration (`settings.js`)**: Interactive settings menu to update your Google Maps, OpenAI, AISStream, NASA FIRMS, or TomTom API keys anytime.
+- **Native Settings Configuration (`ENVIRONMENT`)**: Manage your `GOOGLE_MAPS_API_KEY`, `OPENAI_API_KEY`, `AISSTREAM_API_KEY`, `FIRMS_MAP_KEY`, and `TOMTOM_API_KEY` directly inside Pinokio's native Settings page.
 - **Factory Reset (`reset.js`)**: Cleanly removes the cloned application folder to allow a fresh re-installation if needed.
 
 ---
@@ -40,5 +40,5 @@ While God's Eye View works out-of-the-box with many free/keyless layers, adding 
 1. Open **Pinokio**.
 2. Click **Download** or paste this repository URL into Pinokio.
 3. Click **Install**.
-4. Enter your API keys when prompted (or leave blank to configure later under **Settings**).
+4. Enter your API keys when prompted (or configure them anytime under Pinokio's native **Settings** tab).
 5. Click **Start** to launch God's Eye View!

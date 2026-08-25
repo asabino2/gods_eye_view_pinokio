@@ -1,0 +1,14 @@
+# Required: Google Maps API Key for photorealistic 3D Earth globe tiles
+GOOGLE_MAPS_API_KEY=
+
+# Optional: OpenAI API Key for hands-free voice AI agent & scene summary
+OPENAI_API_KEY=
+
+# Optional: AISStream API Key for live vessel tracking
+AISSTREAM_API_KEY=
+
+# Optional: NASA FIRMS Map Key for live wildfire tracking
+FIRMS_MAP_KEY=
+
+# Optional: TomTom API Key for live traffic density overlays
+TOMTOM_API_KEY=
