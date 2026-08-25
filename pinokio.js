@@ -4,7 +4,7 @@ module.exports = {
   version: "2.0",
   title: "God's Eye View",
   description: "A spy satellite simulator in your browser with real-time spatial intelligence on a photorealistic 3D globe.",
-  icon: "icon.png",
+  icon: "gods-eye-view.png",
   menu: async (kernel, info) => {
     let installed = await kernel.exists(path.resolve(__dirname, "app", "node_modules"))
     let running = await kernel.running(__dirname, "start.js")
